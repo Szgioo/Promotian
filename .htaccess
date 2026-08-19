@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /Promotian1/
+
+RewriteRule ^producto/([0-9]+)$ producto.php?id=$1 [L,QSA]
+
+# 1. Redirigir /index.php a la raíz de tu dominio (/)
+RewriteCond %{THE_REQUEST} ^.*/index\.php
+RewriteRule ^index\.php$ /Promotian1/ [R=301,L]
+
+# 2. Ocultar la extensión .php en las demás páginas (ej. /registro cargará registro.php)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ $1.php [L]
