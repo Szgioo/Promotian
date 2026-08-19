@@ -5,7 +5,7 @@ Promotian es una plataforma web creada para conectar a compradores y vendedores 
 
 ## ¿Cómo funciona internamente?
 Para asegurar que la página funcione rápido y nunca deje de dar servicio, el proyecto organiza la información de una manera muy eficiente:
-* El sistema separa la información de los usuarios dependiendo de su ubicación geográfica (abarcando zonas como Chilchotla y Quimixtlán).
+* El sistema separa la información de los usuarios dependiendo de su ubicación geográfica (abarcando zonas como Chilchotla, Quimixtlán y Gpe. Victoria).
 * Al mantener los datos divididos por región, las búsquedas y la carga de la página se vuelven mucho más ágiles.
 * Las conexiones a la base de datos están programadas bajo un estándar de seguridad que protege la información de las personas.
 
