@@ -7,7 +7,6 @@ Promotian es una plataforma web creada para conectar a compradores y vendedores 
 Para asegurar que la página funcione rápido y nunca deje de dar servicio, el proyecto organiza la información de una manera muy eficiente:
 * El sistema separa la información de los usuarios dependiendo de su ubicación geográfica (abarcando zonas como Chilchotla y Quimixtlán).
 * Al mantener los datos divididos por región, las búsquedas y la carga de la página se vuelven mucho más ágiles.
-* Cuenta con un mecanismo de respaldo automático; si el servidor principal llega a tener problemas, la página se conecta de inmediato a un servidor secundario para seguir funcionando sin interrumpir a los usuarios.
 * Las conexiones a la base de datos están programadas bajo un estándar de seguridad que protege la información de las personas.
 
 ## Características Principales
